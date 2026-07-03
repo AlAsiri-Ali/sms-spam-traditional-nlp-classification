@@ -1,0 +1,7 @@
+model,representation,accuracy,ham_precision,ham_recall,ham_f1,spam_precision,spam_recall,spam_f1
+Naive Bayes,BoW,0.973837,0.98,0.99,0.99,0.91,0.88,0.89
+Naive Bayes,TF-IDF,0.956395,0.95,1.00,0.98,0.99,0.66,0.79
+Logistic Regression,BoW,0.971899,0.97,1.00,0.98,0.98,0.79,0.87
+Logistic Regression,TF-IDF,0.950581,0.95,1.00,0.97,0.96,0.62,0.76
+SVM,BoW,0.973837,0.97,1.00,0.99,0.97,0.81,0.89
+SVM,TF-IDF,0.976744,0.98,1.00,0.99,0.96,0.84,0.90

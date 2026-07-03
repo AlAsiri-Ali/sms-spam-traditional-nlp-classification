@@ -1,0 +1,20 @@
+{
+  "rows": 5574,
+  "labels": {
+    "ham": 4827,
+    "spam": 747
+  },
+  "train_test_note": "Text vector matrices contain 4,127 rows and 6,879 vocabulary features after preprocessing/training split.",
+  "bow_shape": [
+    4127,
+    6879
+  ],
+  "tfidf_shape": [
+    4127,
+    6879
+  ],
+  "sparsity": 0.9988856495608802,
+  "best_model": "SVM with TF-IDF",
+  "best_accuracy": 0.9767441860465116,
+  "best_spam_f1": 0.9
+}
